@@ -149,9 +149,10 @@ if __name__=='__main__':
     password="zzy123456"
     
     #server酱sendkey
-    SENDKEY=os.environ["SCT175054T3a2UbgVP39Adjlcd9LVaoyB8"]
+    SENDKEY="SCT175054T3a2UbgVP39Adjlcd9LVaoyB8"
 
     #Telegram推送参数
+    SENDKEY="SCT175054T3a2UbgVP39Adjlcd9LVaoyB8"
     BOTTOKEN=os.environ["BOTTOKEN"]
 
     #在下方可以更改签到地址和二维码的enc
