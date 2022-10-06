@@ -145,8 +145,8 @@ def push(SENDKEY,res,TGCHATID,BOTTOKEN):
 
 
 if __name__=='__main__':
-    username=os.environ["15522894539"]
-    password=os.environ["zzy123456"]
+    username="15522894539"
+    password="zzy123456"
     
     #server酱sendkey
     SENDKEY=os.environ["SCT175054T3a2UbgVP39Adjlcd9LVaoyB8"]
