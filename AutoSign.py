@@ -145,14 +145,14 @@ def push(SENDKEY,res,TGCHATID,BOTTOKEN):
 
 
 if __name__=='__main__':
-    username="15522894539"
-    password="zzy123456"
+    username=os.environ["USERNAME"]
+    password=os.environ["PASSWORD"]
     
     #server酱sendkey
     SENDKEY=os.environ["SCT175054T3a2UbgVP39Adjlcd9LVaoyB8"]
 
     #Telegram推送参数
-    TGCHATID=os.environ["TGCHATID"]
+    TGCHATID=os.environ["SENDKEY"]
     BOTTOKEN=os.environ["BOTTOKEN"]
 
     #在下方可以更改签到地址和二维码的enc
